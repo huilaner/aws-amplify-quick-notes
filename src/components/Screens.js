@@ -91,7 +91,7 @@ export default () => {
   return (
     <>
       <Header>
-        <Title>Quick Notes</Title>
+        <Title>Hui\'s Quick Notes</Title>
         <SignOutButton
           onClick={() => {
             Auth.signOut().then(() => window.location.reload());
